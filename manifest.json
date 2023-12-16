@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "WebTimeManager",
+  "version": "0.0.1",
+  "description": "Augmente ta productivité en limitant le temps passé sur des sites de divertissements",
+  "author": "BrachV",
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
