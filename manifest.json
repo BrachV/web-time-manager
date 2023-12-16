@@ -6,6 +6,9 @@
   "author": "BrachV",
   "host_permissions": ["<all_urls>"],
   "permissions": ["storage", "tabs"],
+  "action": {
+	"default_popup": "popup.html"
+  },
   "background": {
     "service_worker": "background.js"
   }
